@@ -1,0 +1,531 @@
+[
+    {
+        "period": "1",
+        "name": "OFF CAMP 1",
+        "teacher": "STAFF",
+        "email": null,
+        "average": "",
+        "formative_average": "",
+        "summative_average": "S",
+        "formative": [],
+        "summative": []
+    },
+    {
+        "period": "2",
+        "name": "AP CAL BC",
+        "teacher": "DAVID SASSMAN",
+        "email": "dsassman@scuc.txed.net",
+        "average": "89",
+        "formative_average": "88",
+        "summative_average": "90",
+        "formative": [
+            {
+                "name": "Quiz- Limits Graphically",
+                "date": "8/22/2019",
+                "grade": "100"
+            },
+            {
+                "name": "Quiz- Limits Algebraically",
+                "date": "8/27/2019",
+                "grade": "100"
+            },
+            {
+                "name": "Quiz- Continuity and IVT",
+                "date": "8/29/2019",
+                "grade": "94"
+            },
+            {
+                "name": "Quiz- Rates of Change",
+                "date": "9/6/2019",
+                "grade": "88"
+            },
+            {
+                "name": "Quiz- Derivatives & Differentiation Rules",
+                "date": "9/12/2019",
+                "grade": "87"
+            },
+            {
+                "name": "Quiz- Derivative Graphs",
+                "date": "9/18/2019",
+                "grade": "91"
+            },
+            {
+                "name": "Quiz- Chain Rule & Trig Derivatives",
+                "date": "9/24/2019",
+                "grade": "76"
+            },
+            {
+                "name": "Quiz- Derivatives of Inverse Functions",
+                "date": "9/27/2019",
+                "grade": "80"
+            },
+            {
+                "name": "Quiz- Derivatives of lnx and e",
+                "date": "10/1/2019",
+                "grade": "90"
+            },
+            {
+                "name": "Quiz- Implicit Differentiation",
+                "date": "10/7/2019",
+                "grade": "76"
+            },
+            {
+                "name": "Quiz- Related Rates",
+                "date": "10/9/2019",
+                "grade": "73 (Dropped)"
+            }
+        ],
+        "summative": [
+            {
+                "name": "Test- Unit 1",
+                "date": "8/30/2019",
+                "grade": "94"
+            },
+            {
+                "name": "Test- Unit 2A",
+                "date": "9/30/2019",
+                "grade": "97"
+            },
+            {
+                "name": "Test- Unit 2B",
+                "date": "10/17/2019",
+                "grade": "80"
+            }
+        ]
+    },
+    {
+        "period": "3",
+        "name": "IB ENG 4 HL 2",
+        "teacher": "VERONICA RIORDAN",
+        "email": "vriordan@scuc.txed.net",
+        "average": "72",
+        "formative_average": "79",
+        "summative_average": "",
+        "formative": [
+            {
+                "name": "Quiz: Crime and Punishment I-III",
+                "date": "9/3/2019",
+                "grade": "54(49/90)"
+            },
+            {
+                "name": "Analysis: Setting",
+                "date": "8/29/2019",
+                "grade": "100(40/40)"
+            },
+            {
+                "name": "Discussion: C&P I-III",
+                "date": "9/10/2019",
+                "grade": "100(20/20)"
+            },
+            {
+                "name": "Quiz: Crime and Punishment IV-V",
+                "date": "9/17/2019",
+                "grade": "94"
+            },
+            {
+                "name": "Quiz: Crime and Punishment VI & Epi",
+                "date": "9/25/2019",
+                "grade": "89(125/140)"
+            },
+            {
+                "name": "Quiz: Chronicle of Death Foretold",
+                "date": "10/7/2019",
+                "grade": "56"
+            },
+            {
+                "name": "IO: Crime and Punishment",
+                "date": "10/1/2019",
+                "grade": "80"
+            },
+            {
+                "name": "Reflective Statement: Crime and Punishment",
+                "date": "10/2/2019",
+                "grade": "100(20/20)"
+            }
+        ],
+        "summative": [
+            {
+                "name": "TEST: Summer Terms",
+                "date": "8/26/2019",
+                "grade": "77"
+            },
+            {
+                "name": "SUMMER ASSIGNMENT Notebook",
+                "date": "9/3/2019",
+                "grade": "38(65/170)"
+            },
+            {
+                "name": "TEST: Lit Terms 2",
+                "date": "9/23/2019",
+                "grade": "100"
+            }
+        ]
+    },
+    {
+        "period": "4",
+        "name": "IB SPAN 4 SL 1",
+        "teacher": "ERIC HECOX",
+        "email": "ehecox@scuc.txed.net",
+        "average": "76",
+        "formative_average": "80",
+        "summative_average": "",
+        "formative": [
+            {
+                "name": "syllabus acknowledgement",
+                "date": "8/26/2019",
+                "grade": "150"
+            },
+            {
+                "name": "dialog in Sp to illustrate IB learner traits",
+                "date": "8/27/2019",
+                "grade": "105"
+            },
+            {
+                "name": "quiz over new vocab-redo-read during tutoring",
+                "date": "8/26/2019",
+                "grade": "23"
+            },
+            {
+                "name": "conv in Sp adding phrases from 1st p. of packet",
+                "date": "8/30/2019",
+                "grade": "80"
+            },
+            {
+                "name": "pp. 2,3,6 of book-redo-corrections in E and Sp",
+                "date": "8/30/2019",
+                "grade": "23"
+            },
+            {
+                "name": "pp. 8-9 of book, answers on loose sheet of paper",
+                "date": "9/5/2019",
+                "grade": "100"
+            },
+            {
+                "name": "quiz over personal vocab",
+                "date": "9/4/2019",
+                "grade": "40"
+            },
+            {
+                "name": "El baile del pepino",
+                "date": "9/11/2019",
+                "grade": "100"
+            },
+            {
+                "name": "pp. 144-5 from Spanish B book",
+                "date": "9/20/2019",
+                "grade": "92"
+            },
+            {
+                "name": "2nd quiz over personal vocab: speaking",
+                "date": "9/12/2019",
+                "grade": "60"
+            },
+            {
+                "name": "3rd quiz over personal vocab",
+                "date": "9/23/2019",
+                "grade": "70"
+            },
+            {
+                "name": "country info: Argentina - Guatemala",
+                "date": "9/27/2019",
+                "grade": "97"
+            },
+            {
+                "name": "country info: rest of countries",
+                "date": "10/17/2019",
+                "grade": "105"
+            },
+            {
+                "name": "map of Spain",
+                "date": "9/27/2019",
+                "grade": "0 (Dropped)"
+            }
+        ],
+        "summative": [
+            {
+                "name": "4 entradas de diario: all food & drink",
+                "date": "9/13/2019",
+                "grade": "88"
+            },
+            {
+                "name": "dialog w pers vocab & IB learning profile trait",
+                "date": "10/4/2019",
+                "grade": "70"
+            },
+            {
+                "name": "test over Identities theme",
+                "date": "10/9/2019",
+                "grade": "54"
+            }
+        ]
+    },
+    {
+        "period": "5",
+        "name": "LUNCH",
+        "teacher": "STAFF",
+        "email": null,
+        "average": "",
+        "formative_average": "",
+        "summative_average": "S",
+        "formative": [],
+        "summative": []
+    },
+    {
+        "period": "6",
+        "name": "IB PHYSICS HL 2",
+        "teacher": "MICHAEL T. MARY",
+        "email": "mmary@scuc.txed.net",
+        "average": "97",
+        "formative_average": "97",
+        "summative_average": "",
+        "formative": [
+            {
+                "name": "Paper 1 Wave Questions 1",
+                "date": "8/27/2019",
+                "grade": "100"
+            },
+            {
+                "name": "Paper 1 Waves Questions 2",
+                "date": "8/30/2019",
+                "grade": "100"
+            },
+            {
+                "name": "Paper 1 Waves Questions 3",
+                "date": "9/6/2019",
+                "grade": "100"
+            },
+            {
+                "name": "Paper 1 Waves Questions QUIZ",
+                "date": "9/13/2019",
+                "grade": "95"
+            },
+            {
+                "name": "Ohms Law Practice Problems",
+                "date": "9/20/2019",
+                "grade": "90"
+            },
+            {
+                "name": "Ohms Law and Power Equation Problems",
+                "date": "9/25/2019",
+                "grade": "94"
+            }
+        ],
+        "summative": []
+    },
+    {
+        "period": "7",
+        "name": "IB HIST HL 2",
+        "teacher": "SHAWN JOHNSON",
+        "email": "sjohnson@scuc.txed.net",
+        "average": "95",
+        "formative_average": "97",
+        "summative_average": "94",
+        "formative": [
+            {
+                "name": "Political Systems and Ideologies",
+                "date": "8/22/2019",
+                "grade": "100"
+            },
+            {
+                "name": "Turnitin.com Registration",
+                "date": "8/23/2019",
+                "grade": "100(10/10)"
+            },
+            {
+                "name": "Forms of Government Quizizz",
+                "date": "8/29/2019",
+                "grade": "80(8/10)"
+            },
+            {
+                "name": "Google Classroom Sign-up",
+                "date": "8/30/2019",
+                "grade": "100(5/5)"
+            },
+            {
+                "name": "Federalism: U.S. vs The States (P.E.S.)",
+                "date": "9/5/2019",
+                "grade": "102(51/50)"
+            },
+            {
+                "name": "Federalism Quizizz",
+                "date": "9/6/2019",
+                "grade": "M"
+            },
+            {
+                "name": "Plato and Aristotle on Tyranny",
+                "date": "9/4/2019",
+                "grade": "99"
+            },
+            {
+                "name": "Internal Assessment Research Techniques",
+                "date": "9/18/2019",
+                "grade": "100(20/20)"
+            },
+            {
+                "name": "Mexico: Battle for North America (P.E.S.)",
+                "date": "9/25/2019",
+                "grade": "100(50/50)"
+            },
+            {
+                "name": "Mexico Independence and Early Transition - Quiz",
+                "date": "9/25/2019",
+                "grade": "80(16/20)"
+            },
+            {
+                "name": "Introduction to the OPCVL",
+                "date": "9/26/2019",
+                "grade": "100(20/20)"
+            },
+            {
+                "name": "OPCVL Quiz",
+                "date": "9/27/2019",
+                "grade": "100(5/5)"
+            },
+            {
+                "name": "Storm that Swept Mexico (Day1)",
+                "date": "10/1/2019",
+                "grade": "102(51/50)"
+            },
+            {
+                "name": "Storm that Swept Mexico (Day2)",
+                "date": "10/2/2019",
+                "grade": "104(52/50)"
+            },
+            {
+                "name": "Storm that Swept Mexico (Day3)",
+                "date": "10/3/2019",
+                "grade": "102(51/50)"
+            },
+            {
+                "name": "Storm that Swept Mexico (Day4)",
+                "date": "10/4/2019",
+                "grade": "102(51/50)"
+            }
+        ],
+        "summative": [
+            {
+                "name": "Annotated Bibliography - Government Ideologies",
+                "date": "8/26/2019",
+                "grade": "100(10/10)"
+            },
+            {
+                "name": "Historical Research Topics",
+                "date": "8/29/2019",
+                "grade": "100(10/10)"
+            },
+            {
+                "name": "Intro to Government Systems",
+                "date": "9/11/2019",
+                "grade": "90"
+            },
+            {
+                "name": "Internal Assessment Initial Biography",
+                "date": "9/26/2019",
+                "grade": "100(20/20)"
+            },
+            {
+                "name": "Mexican Revolution Essay (Paper 3)",
+                "date": "10/10/2019",
+                "grade": "95"
+            }
+        ]
+    },
+    {
+        "period": "8",
+        "name": "TOK - SENIOR",
+        "teacher": "KRISTEN MUMME",
+        "email": "kmumme@scuc.txed.net",
+        "average": "99",
+        "formative_average": "100",
+        "summative_average": "98",
+        "formative": [
+            {
+                "name": "Michael Shermer TED Talk",
+                "date": "8/22/2019",
+                "grade": "100"
+            },
+            {
+                "name": "This I Believe research activity",
+                "date": "8/26/2019",
+                "grade": "103"
+            },
+            {
+                "name": "Applying Ethical Theories",
+                "date": "9/4/2019",
+                "grade": "100"
+            },
+            {
+                "name": "Moral Relativism",
+                "date": "9/5/2019",
+                "grade": "100"
+            },
+            {
+                "name": "Timed Writing-Ethics prompts",
+                "date": "9/6/2019",
+                "grade": "100"
+            },
+            {
+                "name": "Knowledge Question Anthropology activity",
+                "date": "9/27/2019",
+                "grade": "100"
+            },
+            {
+                "name": "Happiness and Its Surprises TED Talk",
+                "date": "9/30/2019",
+                "grade": "100"
+            },
+            {
+                "name": "TED Talk The Conscience of TV",
+                "date": "10/1/2019",
+                "grade": "100"
+            },
+            {
+                "name": "TED Talk Language and Saving Money",
+                "date": "10/1/2019",
+                "grade": "100"
+            },
+            {
+                "name": "Timed Writing-Human Sciences prompts",
+                "date": "10/4/2019",
+                "grade": "100"
+            },
+            {
+                "name": "Math History",
+                "date": "10/9/2019",
+                "grade": "100"
+            },
+            {
+                "name": "Donald in Mathemagicland",
+                "date": "10/11/2019",
+                "grade": "100"
+            }
+        ],
+        "summative": [
+            {
+                "name": "This I Believe Essay",
+                "date": "8/30/2019",
+                "grade": "100"
+            },
+            {
+                "name": "Ethics Chapter Test-Open Note",
+                "date": "8/27/2019",
+                "grade": "88"
+            },
+            {
+                "name": "Natural Sciences Open Note test",
+                "date": "9/10/2019",
+                "grade": "89"
+            },
+            {
+                "name": "Human Sciences Open Note Test",
+                "date": "9/24/2019",
+                "grade": "110"
+            },
+            {
+                "name": "Test-Mathematics chapter",
+                "date": "10/7/2019",
+                "grade": "105"
+            }
+        ]
+    }
+]

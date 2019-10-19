@@ -1,58 +1,54 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:gradebook/components/page.dart';
+import 'package:global_configuration/global_configuration.dart';
+import 'package:gradebook/pages/attendance_page.dart';
+import 'package:gradebook/pages/grades_page.dart';
+import 'package:gradebook/pages/home_page.dart';
+import 'package:gradebook/pages/settings_page.dart';
+import 'package:gradebook/utils/gradebook_scroll_behavior.dart';
 import 'fonts/cons_icons.dart';
 
-void main() =>
-    SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp])
-        .then((a) {
-      runApp(MyApp());
-    });
+void main() async {
+  SystemChrome.setEnabledSystemUIOverlays([]);
+  SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
+
+  await GlobalConfiguration().loadFromAsset('app_info');
+
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      builder: (context, child) {
+        return ScrollConfiguration(
+          behavior: GradebookScrollBehavior(),
+          child: child,
+        );
+      },
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        fontFamily: 'Montserrat',
+      ),
       home: Container(
         color: Colors.white,
-       // child: SafeArea(
-          child: DefaultTabController(
-            length: 4,
-            child: Scaffold(
-              body: TabBarView(
-                children: [
-                  Page(
-                    title: 'Home',
-                    children: <Widget>[
-                      Container(
-                        color: Colors.red,
-                      )
-                    ],
-                  ),
-                  Page(
-                    title: 'Attendance',
-                    children: <Widget>[
-                      Container(
-                        color: Colors.red,
-                      )
-                    ],
-                  ),
-                  Page(
-                    title: 'Grades',
-                    children: <Widget>[],
-                  ),
-                  Page(
-                    title: 'Settings',
-                    children: <Widget>[
-                      Container(
-                        color: Colors.red,
-                      )
-                    ],
-                  ),
-                ],
-              ),
-              bottomNavigationBar: TabBar(
+        // child: SafeArea(
+        child: DefaultTabController(
+          length: 4,
+          child: Scaffold(
+            body: TabBarView(
+              children: [
+                HomePage(),
+                AttendancePage(),
+                GradesPage(),
+                SettingsPage(),
+              ],
+            ),
+            bottomNavigationBar: Container(
+              color: Colors.white,
+              child: TabBar(
                 tabs: [
                   Tab(
                     icon: Icon(
@@ -83,32 +79,12 @@ class MyApp extends StatelessWidget {
                 unselectedLabelColor: Color(0xffB8B8B8),
                 indicatorColor: Colors.transparent,
               ),
-              backgroundColor: Colors.white,
             ),
+            backgroundColor: Colors.white,
           ),
         ),
-      //),
-    );
-  }
-}
-
-class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
-
-  final String title;
-
-  @override
-  _MyHomePageState createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
       ),
-      body: Center(),
+      //),
     );
   }
 }
