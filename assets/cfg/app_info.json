@@ -1,14 +1,13 @@
 {
-    "version": "1.0.0",
-    "authors": [
-        "Zackarya Umar"
-    ],
-    "contributors": [
-        "Hubert Ranger",
-        "Jared Machado",
-        "Ian Crowley"
-    ],
+  "version": "1.0.0",
+  "authors": ["Zackarya Umar"],
+  "contributors": [
+    "Hubert Ranger",
+    "Jared Machado",
+    "Ian Crowley",
+    "Will Staton"
+  ],
 
-    "bugReportUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    "actualBugReportUrl": "https://github.com/zackumar/gradebook/issues/new"
+  "bugReportUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+  "actualBugReportUrl": "https://github.com/zackumar/gradebook/issues/new"
 }

@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:global_configuration/global_configuration.dart';
@@ -9,6 +11,8 @@ import 'package:gradebook/utils/gradebook_scroll_behavior.dart';
 import 'fonts/cons_icons.dart';
 
 void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
   SystemChrome.setEnabledSystemUIOverlays([]);
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
 

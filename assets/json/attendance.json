@@ -1,0 +1,64 @@
+{
+    "key": [
+        {
+            "letter": "E",
+            "value": "SCHOOL RELATED ABSENCE"
+        }
+    ],
+    "attendance": [
+        {
+            "period": "1",
+            "name": "OFF CAMP 1",
+            "teacher": "STAFF",
+            "email": null
+        },
+        {
+            "period": "2",
+            "name": "AP CAL BC",
+            "teacher": "DAVID SASSMAN",
+            "email": "dsassman@scuc.txed.net",
+            "absences": [
+                {
+                    "date": "10/2",
+                    "type": "E"
+                }
+            ]
+        },
+        {
+            "period": "3",
+            "name": "IB ENG 4 HL 2",
+            "teacher": "VERONICA RIORDAN",
+            "email": "vriordan@scuc.txed.net"
+        },
+        {
+            "period": "4",
+            "name": "IB SPAN 4 SL 1",
+            "teacher": "ERIC HECOX",
+            "email": "ehecox@scuc.txed.net"
+        },
+        {
+            "period": "5",
+            "name": "LUNCH",
+            "teacher": "STAFF",
+            "email": null
+        },
+        {
+            "period": "6",
+            "name": "IB PHYSICS HL 2",
+            "teacher": "MICHAEL T. MARY",
+            "email": "mmary@scuc.txed.net"
+        },
+        {
+            "period": "7",
+            "name": "IB HIST HL 2",
+            "teacher": "SHAWN JOHNSON",
+            "email": "sjohnson@scuc.txed.net"
+        },
+        {
+            "period": "8",
+            "name": "TOK - SENIOR",
+            "teacher": "KRISTEN MUMME",
+            "email": "kmumme@scuc.txed.net"
+        }
+    ]
+}

@@ -7,6 +7,20 @@ INJECTED from D:\Computer Folders\Desktop\TxConnect\Gradebook\gradebook\android\
 MERGED from D:\Computer Folders\Desktop\TxConnect\Gradebook\gradebook\android\app\src\main\AndroidManifest.xml:1:1-33:12
 MERGED from [:fluttertoast] D:\Computer Folders\Desktop\TxConnect\Gradebook\gradebook\build\fluttertoast\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
 MERGED from [:url_launcher] D:\Computer Folders\Desktop\TxConnect\Gradebook\gradebook\build\url_launcher\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-14:12
+MERGED from [:path_provider] D:\Computer Folders\Desktop\TxConnect\Gradebook\gradebook\build\path_provider\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0.aar\d6b1a1f3b70604342739f5f0f73620bc\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\activity-1.0.0.aar\d6c6c7dd1685cc1076832ac562f638bc\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\dfb7258627c7078026c671d4349120d8\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\ae70f185525f134c3f10758e8d1f6378\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\ffd4113a2a9a7f33f38f607e811be99c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\2d105f779cea7a00a5607afa8279bafa\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.2.0.aar\b8950a7995456ff81a8ae6dfb6688a7b\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0.aar\ba9da0b2d312d26281dc2ad6fff6548f\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\9ef429763abcb23f37e08da41dd5e20f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\afcfc400dc40691e6ee3c6880b9ef6c1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\8e9950819b2f6e314940c5df2dc4ab95\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\9016bca955041e7cf62fd26c4e876501\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.1.0.aar\aa71d441fa5f839ebb3ba588e6e7df5f\AndroidManifest.xml:17:1-22:12
 INJECTED from D:\Computer Folders\Desktop\TxConnect\Gradebook\gradebook\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from D:\Computer Folders\Desktop\TxConnect\Gradebook\gradebook\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from D:\Computer Folders\Desktop\TxConnect\Gradebook\gradebook\android\app\src\debug\AndroidManifest.xml:1:1-7:12
@@ -28,6 +42,12 @@ application
 ADDED from D:\Computer Folders\Desktop\TxConnect\Gradebook\gradebook\android\app\src\main\AndroidManifest.xml:9:5-32:19
 MERGED from [:url_launcher] D:\Computer Folders\Desktop\TxConnect\Gradebook\gradebook\build\url_launcher\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-12:19
 MERGED from [:url_launcher] D:\Computer Folders\Desktop\TxConnect\Gradebook\gradebook\build\url_launcher\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-12:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\2d105f779cea7a00a5607afa8279bafa\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\2d105f779cea7a00a5607afa8279bafa\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\9016bca955041e7cf62fd26c4e876501\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\9016bca955041e7cf62fd26c4e876501\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\2d105f779cea7a00a5607afa8279bafa\AndroidManifest.xml:24:18-86
 	android:label
 		ADDED from D:\Computer Folders\Desktop\TxConnect\Gradebook\gradebook\android\app\src\main\AndroidManifest.xml:11:9-34
 	android:icon
@@ -72,6 +92,34 @@ MERGED from [:fluttertoast] D:\Computer Folders\Desktop\TxConnect\Gradebook\grad
 MERGED from [:fluttertoast] D:\Computer Folders\Desktop\TxConnect\Gradebook\gradebook\build\fluttertoast\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
 MERGED from [:url_launcher] D:\Computer Folders\Desktop\TxConnect\Gradebook\gradebook\build\url_launcher\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
 MERGED from [:url_launcher] D:\Computer Folders\Desktop\TxConnect\Gradebook\gradebook\build\url_launcher\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] D:\Computer Folders\Desktop\TxConnect\Gradebook\gradebook\build\path_provider\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] D:\Computer Folders\Desktop\TxConnect\Gradebook\gradebook\build\path_provider\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0.aar\d6b1a1f3b70604342739f5f0f73620bc\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0.aar\d6b1a1f3b70604342739f5f0f73620bc\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\activity-1.0.0.aar\d6c6c7dd1685cc1076832ac562f638bc\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\activity-1.0.0.aar\d6c6c7dd1685cc1076832ac562f638bc\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\dfb7258627c7078026c671d4349120d8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\dfb7258627c7078026c671d4349120d8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\ae70f185525f134c3f10758e8d1f6378\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\ae70f185525f134c3f10758e8d1f6378\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\ffd4113a2a9a7f33f38f607e811be99c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\ffd4113a2a9a7f33f38f607e811be99c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\2d105f779cea7a00a5607afa8279bafa\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\2d105f779cea7a00a5607afa8279bafa\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.2.0.aar\b8950a7995456ff81a8ae6dfb6688a7b\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.2.0.aar\b8950a7995456ff81a8ae6dfb6688a7b\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0.aar\ba9da0b2d312d26281dc2ad6fff6548f\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0.aar\ba9da0b2d312d26281dc2ad6fff6548f\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\9ef429763abcb23f37e08da41dd5e20f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\9ef429763abcb23f37e08da41dd5e20f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\afcfc400dc40691e6ee3c6880b9ef6c1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\afcfc400dc40691e6ee3c6880b9ef6c1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\8e9950819b2f6e314940c5df2dc4ab95\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\8e9950819b2f6e314940c5df2dc4ab95\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\9016bca955041e7cf62fd26c4e876501\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\9016bca955041e7cf62fd26c4e876501\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.1.0.aar\aa71d441fa5f839ebb3ba588e6e7df5f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\zacku\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.1.0.aar\aa71d441fa5f839ebb3ba588e6e7df5f\AndroidManifest.xml:20:5-44
 INJECTED from D:\Computer Folders\Desktop\TxConnect\Gradebook\gradebook\android\app\src\debug\AndroidManifest.xml
 INJECTED from D:\Computer Folders\Desktop\TxConnect\Gradebook\gradebook\android\app\src\debug\AndroidManifest.xml
 	android:targetSdkVersion
