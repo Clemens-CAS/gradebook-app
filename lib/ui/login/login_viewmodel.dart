@@ -1,27 +1,33 @@
+import 'package:flutter/cupertino.dart';
 import 'package:gradebook/core/services/service_locator.dart';
 import 'package:gradebook/core/services/txconnect_service.dart';
 import 'package:stacked/stacked.dart';
 
 class LoginViewModel extends BaseViewModel {
-  String _username;
-  String _password;
+  bool _incorrect = false;
+  bool get incorrect => _incorrect;
 
   TxConnectService _txConnectService = locator<TxConnectService>();
 
-  void username(String username) {
-    _username = username;
-  }
-
-  void password(String password) {
-    _password = password;
-  }
+  TextEditingController usernameController = TextEditingController();
+  TextEditingController passwordController = TextEditingController();
 
   Future<void> login() async {
-    print('Username: $_username, Password: $_password');
-    var good =
-        await _txConnectService.login(username: _username, password: _password);
-    print(good);
-    if (good) print(await _txConnectService.getStudents());
+    print(
+        'Username: ${usernameController.text}, Password: ${passwordController.text}');
+    var success = await _txConnectService.login(
+      username: usernameController.text,
+      password: passwordController.text,
+    );
+    print(success);
+    if (success) {
+      print(await _txConnectService.getStudents());
+      usernameController.dispose();
+      passwordController.dispose();
+    } else {
+      _incorrect = true;
+      logout();
+    }
   }
 
   void logout() {
@@ -29,10 +35,3 @@ class LoginViewModel extends BaseViewModel {
     print('Logged out of instance');
   }
 }
-
-// //Exception has occurred.
-// NoSuchMethodError (NoSuchMethodError: The getter 'attributes' was called on null.
-// Receiver: null
-// Tried calling: attributes)
-
-//Second time failed?
