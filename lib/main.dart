@@ -1,37 +1,35 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:gradebook/ui/login/login_view.dart';
+import 'package:gradebook/utils/app_colors.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import 'core/services/service_locator.dart';
 
-void main() {
+import 'package:gradebook/router.dart' as router;
+
+Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  SystemChrome.setEnabledSystemUIOverlays([]);
+  // SystemChrome.setEnabledSystemUIOverlays([]);
+  SystemChrome.setPreferredOrientations(
+      [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
 
   setupServiceLocator();
+
+  var initialRoute = router.LoginViewRoute;
+  SharedPreferences prefs = await SharedPreferences.getInstance();
+  if (prefs.getString('studentId') != null) {
+    print('Has Data');
+  }
 
   runApp(
     MaterialApp(
       theme: ThemeData(
         fontFamily: 'Montserrat',
+        backgroundColor: AppColors.white,
       ),
-      home: MyApp(), //App(),
+      onGenerateRoute: router.generateRoute,
+      initialRoute: initialRoute,
       debugShowCheckedModeBanner: false,
     ),
   );
-}
-
-class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
-  @override
-  Widget build(BuildContext context) {
-    ScreenUtil.init(
-      context,
-      width: 375.0,
-      height: 812.0,
-      allowFontScaling: true,
-    );
-    return LoginView();
-  }
 }

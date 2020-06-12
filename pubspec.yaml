@@ -30,8 +30,9 @@ dependencies:
   stacked: ^1.5.7+1 # View Model
   get_it: ^4.0.2 # Service Loader
   flutter_screenutil: ^1.0.2 # Screen Sizing
+  shared_preferences: ^0.5.7+3 # Store Key Val Pairs
 
-  txconnect: ^1.0.1
+  txconnect: ^1.0.1 # Service API
 
 dev_dependencies:
   flutter_test:
