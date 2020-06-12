@@ -243,9 +243,10 @@ class LoginView extends StatelessWidget {
   Widget _loginButton(model) {
     if (model.attempting) {
       return Center(
-          child: CircularProgressIndicator(
-        valueColor: AlwaysStoppedAnimation<Color>(AppColors.success),
-      ));
+        child: CircularProgressIndicator(
+          valueColor: AlwaysStoppedAnimation<Color>(AppColors.success),
+        ),
+      );
     }
     return Center(
       child: InkWell(

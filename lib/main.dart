@@ -17,8 +17,9 @@ Future<void> main() async {
 
   var initialRoute = router.LoginViewRoute;
   SharedPreferences prefs = await SharedPreferences.getInstance();
+  await prefs.clear();
   if (prefs.getString('studentId') != null) {
-    print('Has Data');
+    initialRoute = router.HomeViewRoute;
   }
 
   runApp(
@@ -26,9 +27,10 @@ Future<void> main() async {
       theme: ThemeData(
         fontFamily: 'Montserrat',
         backgroundColor: AppColors.white,
+        primaryColor: AppColors.textColor,
       ),
       onGenerateRoute: router.generateRoute,
-      initialRoute: initialRoute,
+      initialRoute: initialRoute, //router.UserSelectViewRoute,
       debugShowCheckedModeBanner: false,
     ),
   );
