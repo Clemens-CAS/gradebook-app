@@ -16,6 +16,7 @@ class UserSelectView extends StatelessWidget {
     );
 
     return ViewModelBuilder.reactive(
+      onModelReady: (model) => model.init(context),
       builder: (context, model, child) => Scaffold(
         backgroundColor: AppColors.success,
         body: Padding(
