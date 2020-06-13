@@ -4,9 +4,14 @@ import 'package:gradebook/core/services/txconnect_service.dart';
 import 'package:gradebook/router.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:stacked/stacked.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class LoginViewModel extends BaseViewModel {
   var _context;
+
+  final _signUpUrl = 'https://txconnpa.esc13.net/PACB/Registration.aspx';
+  final _fogotPasswordUrl =
+      'https://txconnpa.esc13.net/PACB/ForgotPassword.aspx';
 
   bool _obscurePassword = true;
 
@@ -52,6 +57,22 @@ class LoginViewModel extends BaseViewModel {
       _attempting = false;
       logout();
       notifyListeners();
+    }
+  }
+
+  Future<void> signUp() async {
+    if (await canLaunch(_signUpUrl)) {
+      await launch(_signUpUrl);
+    } else {
+      throw 'Could not launch $_signUpUrl';
+    }
+  }
+
+  Future<void> forgotPassword() async {
+    if (await canLaunch(_fogotPasswordUrl)) {
+      await launch(_fogotPasswordUrl);
+    } else {
+      throw 'Could not launch $_fogotPasswordUrl';
     }
   }
 

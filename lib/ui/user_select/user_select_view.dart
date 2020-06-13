@@ -86,17 +86,15 @@ class UserSelectView extends StatelessWidget {
                           ),
                           InkWell(
                             child: Text(
-                              'Contact admin',
+                              'Log out',
                               style: TextStyle(
                                 fontSize: 18.0.sp,
                                 fontWeight: FontWeight.w300,
                                 color: AppColors.success,
                               ),
                             ),
-                            onTap: () {
-                              print('Contact Admin');
-                            },
-                          )
+                            onTap: () => model.logout(),
+                          ),
                         ],
                       ),
                     ],

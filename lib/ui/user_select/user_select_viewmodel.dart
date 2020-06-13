@@ -13,6 +13,8 @@ class UserSelectViewModel extends BaseViewModel {
   List<Student> _students;
   List<Student> get students => _students;
 
+  bool _attempting = false;
+
   void init(context) {
     _context = context;
   }
@@ -22,8 +24,17 @@ class UserSelectViewModel extends BaseViewModel {
     print(students);
   }
 
+  void logout() {
+    print('Log out');
+    _txService.logout();
+    Navigator.pushNamedAndRemoveUntil(
+        _context, LoginViewRoute, (route) => false);
+  }
+
 // TODO: User feedback on press. Switch student feedback
   Future<void> select(String studentId) async {
+    if (_attempting) return;
+    _attempting = true;
     await _txService.switchStudent(studentId: studentId);
 
     SharedPreferences prefs = await SharedPreferences.getInstance();

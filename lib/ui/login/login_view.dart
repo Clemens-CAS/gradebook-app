@@ -54,7 +54,7 @@ class LoginView extends StatelessWidget {
               SizedBox(
                 height: 40.h,
               ),
-              _helpSection(),
+              _helpSection(model),
               SizedBox(
                 height: 90.h,
               ),
@@ -191,7 +191,7 @@ class LoginView extends StatelessWidget {
     );
   }
 
-  Widget _helpSection() {
+  Widget _helpSection(model) {
     return Column(
       children: [
         Row(
@@ -214,28 +214,23 @@ class LoginView extends StatelessWidget {
                   color: AppColors.success,
                 ),
               ),
-              onTap: () {
-                print('Sign Up');
-              },
-            )
+              onTap: () => model.signUp(),
+            ),
           ],
         ),
         SizedBox(
           height: 13.h,
         ),
         InkWell(
-          child: Text(
-            'Forgot password?',
-            style: TextStyle(
-              fontSize: 18.0.sp,
-              fontWeight: FontWeight.w300,
-              color: AppColors.success,
+            child: Text(
+              'Forgot password?',
+              style: TextStyle(
+                fontSize: 18.0.sp,
+                fontWeight: FontWeight.w300,
+                color: AppColors.success,
+              ),
             ),
-          ),
-          onTap: () {
-            print('Forgot Password');
-          },
-        )
+            onTap: () => model.forgotPassword())
       ],
     );
   }
