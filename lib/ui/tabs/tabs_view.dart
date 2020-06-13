@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:gradebook/ui/grades/grades_view.dart';
 import 'package:gradebook/ui/home/home_view.dart';
 import 'package:gradebook/ui/settings/settings_view.dart';
 import 'package:gradebook/utils/app_icons.dart';
@@ -26,9 +27,7 @@ class TabsView extends StatelessWidget {
               Container(
                 color: Colors.green,
               ),
-              Container(
-                color: Colors.blue,
-              ),
+              GradesView(),
               SettingsView(),
             ],
           ),

@@ -50,4 +50,9 @@ class AppColors {
   static const Color white = Color(0xffffffff);
 
   static const Color textColor = Color(0xff162447);
+
+  static const Color goodGrade = Color(0xff39D8A9);
+  static const Color averageGrade = Color(0xffFDE14B);
+  static const Color lowGrade = Color(0xffffb05c);
+  static const Color failingGrade = Color(0xffFF8787);
 }
