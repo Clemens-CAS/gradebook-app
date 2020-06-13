@@ -3,6 +3,11 @@ import 'package:txconnect/txconnect.dart';
 
 class TxConnectServiceMock extends TxConnectService {
   @override
+  Student getCurrentStudent() {
+    return Student('00', '000001', 'JOHN D. DOE');
+  }
+
+  @override
   Future<List<Alert>> getAlerts({bool getUnread}) {
     throw UnimplementedError();
   }
@@ -56,6 +61,6 @@ class TxConnectServiceMock extends TxConnectService {
 
   @override
   Future<Student> switchStudent({String studentId}) {
-    throw UnimplementedError();
+    return Future.value(Student('00', '000001', 'JOHN D. DOE'));
   }
 }

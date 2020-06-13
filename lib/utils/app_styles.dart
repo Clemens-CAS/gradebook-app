@@ -7,15 +7,14 @@ class AppStyles {
   static TextStyle pageTitle = TextStyle(
     fontSize: ScreenUtil().setSp(36.0),
     fontWeight: FontWeight.w600,
-    color: AppColors.black,
-
+    color: AppColors.textColor,
   );
 
   static TextStyle pageCategories = TextStyle(
     fontSize: ScreenUtil().setSp(24.0),
-    color: AppColors.black,
+    color: AppColors.textColor,
   );
 
   //Settings
-  
+
 }

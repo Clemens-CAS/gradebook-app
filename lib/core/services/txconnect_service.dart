@@ -5,6 +5,8 @@ abstract class TxConnectService {
   Future<bool> login({@required String username, @required String password});
   void logout();
 
+  Student getCurrentStudent();
+
   Future<List<Student>> getStudents();
   Future<Student> switchStudent({@required String studentId});
 

@@ -11,6 +11,11 @@ class TxConnectServiceLib extends TxConnectService {
   bool get loggedIn => _isLoggedIn;
 
   @override
+  Student getCurrentStudent() {
+    return tx.currentStudent;
+  }
+
+  @override
   Future<bool> login({String username, String password}) async {
     _isLoggedIn = await tx.login(username, password);
     return _isLoggedIn;
